@@ -1,0 +1,13 @@
+# Text Based Adventure Game
+
+print("Welcome to my game!")
+
+playerName = input("Enter your name: ")
+print("Hello " + playerName)
+
+print("Choose your character: ", "1.) Knight","2.) Archer","3.) Wizard", sep = '\n')
+
+characterList = ["Knight", "Archer", "Wizard"]
+
+character = input("Type your character's number: ")
+print("You chose: " + characterList[int(character) -1])
